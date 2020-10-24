@@ -1,0 +1,61 @@
+.contacts-card__item {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 55px;
+}
+
+.contacts-menu {
+  background: #EEEEEE;
+  width: 100%;
+  max-width: 480px;
+  padding: 15px;
+}
+
+.contacts-maps {
+  width: 100%;
+  max-width: 685px;
+
+  iframe {
+	border: none;
+  }
+}
+
+.contact-tel {
+  width: 100%;
+  background: #FFFFFF;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+
+  p {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	color: #000000;
+	margin: 0;
+	margin-left: 15px;
+  }
+}
+
+.contact-tel__img {
+  width: 30px;
+  min-height: 30px;
+  background: #01619E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-date {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+

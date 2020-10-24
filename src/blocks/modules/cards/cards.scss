@@ -1,0 +1,35 @@
+.cards {
+  padding-top: 35px;
+}
+
+.card-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+
+  a {
+	position: absolute;
+	top: 75%;
+	left: 25%;
+	background: #00B3FF;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 15px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 1px;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+	&:hover {
+	  color: black;
+	}
+  }
+}

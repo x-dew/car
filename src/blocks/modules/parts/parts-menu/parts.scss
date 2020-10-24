@@ -1,0 +1,26 @@
+.parts-menu{
+  padding-top: 40px;
+  width: 100%;
+}
+.parts-link{
+  display: flex;
+  p{
+	margin: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+
+  }
+  span{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #01619E;
+
+  }
+}
+.parts-line{
+  margin: 0 2px!important;
+}

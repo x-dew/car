@@ -1,0 +1,41 @@
+.footer {
+
+}
+
+.footer-item {
+  background: #111111;
+  min-height: 200px;
+  margin-top: 95px;
+  padding: 44px 20px;
+}
+
+.footer-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu {
+  p {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+  }
+
+  a {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #4E4E4E;
+
+	&:hover {
+	  color: #00B3FF;
+	  cursor: pointer;
+	}
+  }
+}

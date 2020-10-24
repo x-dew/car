@@ -1,0 +1,39 @@
+.menu {
+  padding-top: 16px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-item__text {
+  display: flex;
+  align-items: center;
+
+  li {
+	margin-right: 30px;
+
+	&:hover {
+	  color: slategray;
+	  cursor: pointer;
+	}
+  }
+}
+
+.menu-text {
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  a {
+	margin-right: 22px;
+
+	&:last-child {
+	  margin-right: 0;
+	}
+  }
+
+}

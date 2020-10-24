@@ -1,0 +1,29 @@
+
+.contact-img {
+  background: url("../../../img/contact-banner.png");
+  min-height: 400px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-link {
+  a {
+	background: #4E4E4E;
+	border: 2px solid #00B3FF;
+	box-sizing: border-box;
+	border-radius: 0px 0px 10px 0px;
+	text-decoration: none;
+	padding: 20px 110px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 37px;
+	color: #FFFFFF;
+
+	&:hover {
+	  cursor: pointer;
+	  color: black;
+	}
+  }
+}

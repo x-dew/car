@@ -1,0 +1,58 @@
+.sale {
+  padding-top: 30px;
+}
+
+.banner {
+  background: url("../../../img/banner 1.png") center no-repeat;
+  min-height: 250px;
+  width: 100%;
+  background-size: cover;
+}
+
+.banner-text {
+  text-align: center;
+  padding: 44px 97px 30px 97px;
+
+  h1 {
+	color: white;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 37px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+  }
+
+  p {
+	color: white;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	text-transform: uppercase;
+  }
+
+  a {
+	color: #00B3FF;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+
+  button {
+	padding: 10px 45px;
+	background: #00B3FF;
+	border-radius: 5px;
+	border: none;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 1px;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	color: white;
+  }
+}
